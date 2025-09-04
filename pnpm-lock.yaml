@@ -23,6 +23,12 @@ importers:
       '@actions/tool-cache':
         specifier: ^2.0.2
         version: 2.0.2
+      '@noble/ed25519':
+        specifier: ^1.7.1
+        version: 1.7.5
+      '@noble/hashes':
+        specifier: ^1.3.0
+        version: 1.8.0
     devDependencies:
       '@vercel/ncc':
         specifier: ^0.38.3
@@ -116,6 +122,13 @@ packages:
   '@fastify/busboy@2.1.1':
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
+
+  '@noble/ed25519@1.7.5':
+    resolution: {integrity: sha512-xuS0nwRMQBvSxDa7UxMb61xTiH3MxTgUfhyPUALVIe0FlOAz4sjELwyDRyUvqeEYfRSG9qNjFIycqLZppg4RSA==}
+
+  '@noble/hashes@1.8.0':
+    resolution: {integrity: sha512-jCs9ldd7NwzpgXDIf6P3+NrHh9/sD6CQdxHyjQI+h/6rDNo88ypBxxz45UDuZHz9r3tNz7N/VInSVoVdtXEI4A==}
+    engines: {node: ^14.21.3 || >=16}
 
   '@octokit/auth-token@4.0.0':
     resolution: {integrity: sha512-tY/msAuJo6ARbK6SPIxZrPBms3xPbfwBrulZe0Wtr/DIY9lje2HeV1uoebShn6mx7SjCHif6EjMvoREj+gZ+SA==}
@@ -571,6 +584,10 @@ snapshots:
       - supports-color
 
   '@fastify/busboy@2.1.1': {}
+
+  '@noble/ed25519@1.7.5': {}
+
+  '@noble/hashes@1.8.0': {}
 
   '@octokit/auth-token@4.0.0': {}
 
